@@ -1,0 +1,155 @@
+---
+title: "Divisão da Herança de Alberto Rocha"
+output:
+  html_document:
+    df_print: paged
+  html_notebook: default
+  pdf_document: default
+---
+
+```{r, include = F}
+knitr::opts_chunk$set(echo = F,
+                      include = F,
+                      warning = F,
+                      message = F)
+ options(scipen=1, digits=2)
+```
+
+
+Partindo dos pressupostos que
+
+1) A divisão da casa de Paredes de Coura foi feita equitativamente, o dinheiro entregue e esse ponto encerrado;
+
+2) Tal como tem sido feito até agora, todas as despesas e receitas serão divididas pelos herdeiros na proporção de 5/8 para Ana Paula Rocha e 1/8 para cada um dos filhos de Alberto Rocha;
+
+3) A herança não possui capital disponível. Como tal, as despesas incorridas por ela desde o falecimento de Alberto Rocha (Pai) foram adiantadas por Ana Paula Rocha;
+
+Temos que o balanço de cada um dos herdeiros relativamente à herança, após a liquidação das dívidas e créditos pessoais mencionadas no documento anterior, é:
+
+```{r}
+berto = -6013
+xanda = -6013
+crist = -6013
+paula = -(berto + xanda + crist)
+```
+
+* Ana Paula Rocha: **`r paula` €**
+* Alberto Rocha: **`r berto` €**
+* Cristina Rocha: **`r crist` €**
+* Nair Rocha: **`r xanda` €**
+
+Com base neste ponto de partida, apresentam-se seguidamente propostas para a divisão do património móvel da herança, bem como ressarcimento das despesas incorridas pelos herdeiros no âmbito desta. Como poderão ter notado, este documento é um markdown, podendo (e devendo) ser editado e actualizado de forma trivial. Desde já encorajam-se os herdeiros a acrescentar items e sugerir alterações conforme relevante.
+
+#### Fiat Punto
+
+Ana Paula Rocha propõe aos restantes herdeiros a aquisição do Fiat Punto (...) pelo valor de **`r punto = 3000; punto` €**. O balanço após esta transação será de 
+
+```{r}
+berto = berto + punto/8
+xanda = xanda + punto/8
+crist = crist + punto/8
+paula = paula - 7/8*punto
+```
+
+* Ana Paula Rocha: **`r paula` €**
+* Alberto Rocha: **`r berto` €**
+* Cristina Rocha: **`r crist` €**
+* Nair Rocha: **`r xanda` €**
+
+#### Mitsubishi Pajero Pinin
+
+Alberto Rocha propõe aos restantes herdeiros a aquisição do Mitsubishi Pajero Pinin (...) pelo valor de **`r pinin = 3000; pinin` €**. O balanço após esta transação será de 
+
+```{r}
+berto = berto + pinin*-7/8
+xanda = xanda + pinin*1/8
+crist = crist + pinin*1/8
+paula = paula + pinin*1/8
+```
+
+* Ana Paula Rocha: **`r paula` €**
+* Alberto Rocha: **`r berto` €**
+* Cristina Rocha: **`r crist` €**
+* Nair Rocha: **`r xanda` €**
+
+#### Recheio da Maia e de Paredes de Coura
+
+Ana Paula Rocha propõe aos restantes herdeiros a aquisição dos recheios das casa da Maia e Paredes de Coura pelo valor de **`r mobilia = 4000; mobilia` €**. Argumenta que este valor é uma estimativa bastante optimista para o valor atingível através da revenda deste a terceiros. O balanço após esta transação será de 
+
+```{r}
+berto = berto + mobilia*1/8
+xanda = xanda + mobilia*1/8
+crist = crist + mobilia*1/8
+paula = paula + mobilia*-7/8
+```
+
+* Ana Paula Rocha: **`r paula` €**
+* Alberto Rocha: **`r berto` €**
+* Cristina Rocha: **`r crist` €**
+* Nair Rocha: **`r xanda` €**
+
+#### Despesas do Funeral
+
+Alberto Rocha apresenta as despesas que assumiu com o funeral de Alberto Rocha (Pai), no valor de de **`r funeral = 5215.99; funeral` €**. O balanço após esta transação será de 
+
+```{r}
+berto = berto + funeral*7/8
+xanda = xanda + funeral*-1/8
+crist = crist + funeral*-1/8
+paula = paula + funeral*-1/8
+```
+
+* Ana Paula Rocha: **`r paula` €**
+* Alberto Rocha: **`r berto` €**
+* Cristina Rocha: **`r crist` €**
+* Nair Rocha: **`r xanda` €**
+
+#### Despesas de armazenamento do recheio de Paredes de Coura
+
+Para que fosse possível a venda da casa de Paredes de Coura, foi necessário alugar um espaço de armazenamento para o recheio da mesma. Esse espaço foi usado entre Setembro e Dezembro de 2022, conforme apresentado em baixo. O valor total foi **`r bigbox = 764; bigbox` €**.
+
+![](comprovativos/bigbox.png)
+
+O balanço após esta transação será: 
+
+```{r}
+berto = berto + bigbox*7/8
+xanda = xanda + bigbox*-1/8
+crist = crist + bigbox*-1/8
+paula = paula + bigbox*-1/8
+```
+
+* Ana Paula Rocha: **`r paula` €**
+* Alberto Rocha: **`r berto` €**
+* Cristina Rocha: **`r crist` €**
+* Nair Rocha: **`r xanda` €**
+
+#### Despesas com a mudança do recheio de Paredes de Coura
+
+Para efeitos da venda da casa de Paredes de Coura, Ana Paula Rocha contratou os serviços da empresa de mudança José Alves em duas ocasiões: Mudança de Afe para a Big Box em Gaia e, posteriormente, da Big Box para a casa da Maia. Ambos os serviços foram pagos em dinheiros e os respectivos movimentos são apresentados seguidamente. Os primeiros 3 movimentos referem-se ao levantamento fraccionado de **655 €** devido ao limite de multibanco e mbway. O ultimo movimento corresponde à segunda mudança, no valor de **250 €**.
+
+![](comprovativos/mudanca.png)
+
+o valor total é **`r mudanca = 110 + 200 + 345 + 200; mudanca` €**. O balanço após esta transação será: 
+
+```{r}
+berto = berto + mudanca*-1/8
+xanda = xanda + mudanca*-1/8
+crist = crist + mudanca*-1/8
+paula = paula + mudanca*7/8
+```
+
+* Ana Paula Rocha: **`r paula` €**
+* Alberto Rocha: **`r berto` €**
+* Cristina Rocha: **`r crist` €**
+* Nair Rocha: **`r xanda` €**
+
+
+## Divisão da Casa da Maia
+
+Propõe-se que a casa da Maia seja avaliada por um avaliador acreditado pela CMVM, escolhido da lista apresentada em https://web3.cmvm.pt/sdi/peritos/peritos.cfm. O valor resultante dessa avaliação caberá a cada um dos herdeiros, na proporção habitual (5-1-1-1), à qual será em seguida acrescentado o balanço final calculado anteriormente.
+
+Para a concretização da divisão da casa urge acordar no avaliador e proceder à avaliação, uma vez que sem o resultado da mesma é impossível prosseguir. Pede-se aos herdeiros que se pronunciem sobre a escolha do avaliador. Uma vez obtida a avaliação, será apresentada uma proposta de execução da divisão.
+
+
+
