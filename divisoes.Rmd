@@ -47,7 +47,7 @@ Ana Paula Rocha propõe aos restantes herdeiros a aquisição do Fiat Punto (...
 berto = berto + punto/8
 xanda = xanda + punto/8
 crist = crist + punto/8
-paula = paula - 7/8*punto
+paula = paula - 3/8*punto
 ```
 
 * Ana Paula Rocha: **`r paula` €**
@@ -63,7 +63,7 @@ Alberto Rocha propõe aos restantes herdeiros a aquisição do Mitsubishi Pajero
 berto = berto + pinin*-7/8
 xanda = xanda + pinin*1/8
 crist = crist + pinin*1/8
-paula = paula + pinin*1/8
+paula = paula + pinin*5/8
 ```
 
 * Ana Paula Rocha: **`r paula` €**
@@ -79,7 +79,7 @@ Ana Paula Rocha propõe aos restantes herdeiros a aquisição dos recheios das c
 berto = berto + mobilia*1/8
 xanda = xanda + mobilia*1/8
 crist = crist + mobilia*1/8
-paula = paula + mobilia*-7/8
+paula = paula + mobilia*-3/8
 ```
 
 * Ana Paula Rocha: **`r paula` €**
@@ -95,7 +95,7 @@ Alberto Rocha apresenta as despesas que assumiu com o funeral de Alberto Rocha (
 berto = berto + funeral*7/8
 xanda = xanda + funeral*-1/8
 crist = crist + funeral*-1/8
-paula = paula + funeral*-1/8
+paula = paula + funeral*-5/8
 ```
 
 * Ana Paula Rocha: **`r paula` €**
@@ -115,7 +115,7 @@ O balanço após esta transação será:
 berto = berto + bigbox*7/8
 xanda = xanda + bigbox*-1/8
 crist = crist + bigbox*-1/8
-paula = paula + bigbox*-1/8
+paula = paula + bigbox*-5/8
 ```
 
 * Ana Paula Rocha: **`r paula` €**
@@ -135,7 +135,7 @@ o valor total é **`r mudanca = 110 + 200 + 345 + 200; mudanca` €**. O balanç
 berto = berto + mudanca*-1/8
 xanda = xanda + mudanca*-1/8
 crist = crist + mudanca*-1/8
-paula = paula + mudanca*7/8
+paula = paula + mudanca*3/8
 ```
 
 * Ana Paula Rocha: **`r paula` €**

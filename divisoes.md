@@ -35,7 +35,7 @@ herdeiros a acrescentar items e sugerir alterações conforme relevante.
 Ana Paula Rocha propõe aos restantes herdeiros a aquisição do Fiat Punto
 (…) pelo valor de **3000 €**. O balanço após esta transação será de
 
-- Ana Paula Rocha: **15414 €**
+- Ana Paula Rocha: **16914 €**
 - Alberto Rocha: **-5638 €**
 - Cristina Rocha: **-5638 €**
 - Nair Rocha: **-5638 €**
@@ -46,7 +46,7 @@ Alberto Rocha propõe aos restantes herdeiros a aquisição do Mitsubishi
 Pajero Pinin (…) pelo valor de **3000 €**. O balanço após esta transação
 será de
 
-- Ana Paula Rocha: **15789 €**
+- Ana Paula Rocha: **18789 €**
 - Alberto Rocha: **-8263 €**
 - Cristina Rocha: **-5263 €**
 - Nair Rocha: **-5263 €**
@@ -59,7 +59,7 @@ que este valor é uma estimativa bastante optimista para o valor
 atingível através da revenda deste a terceiros. O balanço após esta
 transação será de
 
-- Ana Paula Rocha: **12289 €**
+- Ana Paula Rocha: **17289 €**
 - Alberto Rocha: **-7763 €**
 - Cristina Rocha: **-4763 €**
 - Nair Rocha: **-4763 €**
@@ -70,7 +70,7 @@ Alberto Rocha apresenta as despesas que assumiu com o funeral de Alberto
 Rocha (Pai), no valor de de **5215.99 €**. O balanço após esta transação
 será de
 
-- Ana Paula Rocha: **11637 €**
+- Ana Paula Rocha: **14029.01 €**
 - Alberto Rocha: **-3199.01 €**
 - Cristina Rocha: **-5415 €**
 - Nair Rocha: **-5415 €**
@@ -86,7 +86,7 @@ apresentado em baixo. O valor total foi **764 €**.
 
 O balanço após esta transação será:
 
-- Ana Paula Rocha: **11541.5 €**
+- Ana Paula Rocha: **13551.51 €**
 - Alberto Rocha: **-2530.51 €**
 - Cristina Rocha: **-5510.5 €**
 - Nair Rocha: **-5510.5 €**
@@ -106,7 +106,7 @@ mudança, no valor de **250 €**.
 
 o valor total é **855 €**. O balanço após esta transação será:
 
-- Ana Paula Rocha: **12289.63 €**
+- Ana Paula Rocha: **13872.13 €**
 - Alberto Rocha: **-2637.38 €**
 - Cristina Rocha: **-5617.37 €**
 - Nair Rocha: **-5617.37 €**
