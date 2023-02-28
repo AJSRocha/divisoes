@@ -3,8 +3,7 @@ title: "Divisão da Herança de Alberto Rocha"
 output:
   html_document:
     df_print: paged
-  html_notebook: default
-  pdf_document: default
+  github_document: default
 ---
 
 ```{r, include = F}
