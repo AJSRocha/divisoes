@@ -1,9 +1,9 @@
 ---
 title: "Divisão da Herança de Alberto Rocha"
 output:
+  github_document: default
   html_document:
     df_print: paged
-  github_document: default
 ---
 
 ```{r, include = F}
