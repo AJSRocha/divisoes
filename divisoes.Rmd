@@ -12,6 +12,8 @@ knitr::opts_chunk$set(echo = F,
                       warning = F,
                       message = F)
  options(scipen=1, digits=2)
+ 
+library(dplyr) 
 ```
 
 
@@ -142,6 +144,65 @@ paula = paula + mudanca*3/8
 * Alberto Rocha: **`r berto` €**
 * Cristina Rocha: **`r crist` €**
 * Nair Rocha: **`r xanda` €**
+
+## Resumo final da divisao
+
+Seguidamente apresenta-se o resumo das operações consideradas anteriormente. A coluna 'check' soma as parcelas individuais de cada item. Todos os valores são em €, os valores diferentes de 0 resultam de erros de arredondamento.
+
+```{r, include=T}
+parcelas = c('inicial','punto','jipe','mudancas','bigbox','funeral','recheio')
+
+paula_sum = c('inicial' = 18039,
+              'punto' = -3/8*punto,
+              'jipe' = 5/8*pinin,
+              'mudancas' = 3/8*mudanca,
+              'bigbox' = -5/8*bigbox,
+              'funeral' = -5/8*funeral,
+              'recheio' = -3/8*mobilia)
+
+berto_sum = c('inicial' = -6013,
+              'punto' = 1/8*punto,
+              'jipe' = -7/8*pinin,
+              'mudancas' = -1/8*mudanca,
+              'bigbox' = 7/8*bigbox,
+              'funeral' = 7/8*funeral,
+              'recheio' = 1/8*mobilia)
+
+crist_sum = c('inicial' = -6013,
+              'punto' = 1/8*punto,
+              'jipe' = 1/8*pinin,
+              'mudancas' = -1/8*mudanca,
+              'bigbox' = -1/8*bigbox,
+              'funeral' = -1/8*funeral,
+              'recheio' = 1/8*mobilia)
+
+xanda_sum = c('inicial' = -6013,
+              'punto' = 1/8*punto,
+              'jipe' = 1/8*pinin,
+              'mudancas' = -1/8*mudanca,
+              'bigbox' = -1/8*bigbox,
+              'funeral' = -1/8*funeral,
+              'recheio' = 1/8*mobilia)
+
+sumario = data.frame(cbind(paula_sum,
+                           berto_sum,
+                           crist_sum,
+                           xanda_sum))
+
+names(sumario) = c('AnaPaula', 'Alberto', 'Cristina', 'Nair')
+
+sumario = 
+sumario %>% 
+ add_row('AnaPaula' = sum(.$AnaPaula),
+         'Alberto' = sum(.$Alberto),
+         'Cristina' = sum(.$Cristina),
+         'Nair' = sum(.$Nair)) %>% 
+  mutate(Check = AnaPaula + Alberto + Cristina + Nair %>% trunc(0) )
+
+rownames(sumario)[nrow(sumario)] = 'Total'
+
+sumario
+```
 
 
 ## Divisão da Casa da Maia

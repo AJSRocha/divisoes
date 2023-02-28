@@ -111,6 +111,23 @@ o valor total é **855 €**. O balanço após esta transação será:
 - Cristina Rocha: **-5617.37 €**
 - Nair Rocha: **-5617.37 €**
 
+## Resumo final da divisao
+
+Seguidamente apresenta-se o resumo das operações consideradas
+anteriormente. A coluna ‘check’ soma as parcelas individuais de cada
+item. Todos os valores são em €, os valores diferentes de 0 resultam de
+erros de arredondamento.
+
+    ##          AnaPaula Alberto Cristina  Nair Check
+    ## inicial     18039   -6013    -6013 -6013  0.00
+    ## punto       -1125     375      375   375  0.00
+    ## jipe         1875   -2625      375   375  0.00
+    ## mudancas      321    -107     -107  -107  0.88
+    ## bigbox       -478     668      -96   -96  0.50
+    ## funeral     -3260    4564     -652  -652  1.00
+    ## recheio     -1500     500      500   500  0.00
+    ## Total       13872   -2637    -5617 -5617  0.37
+
 ## Divisão da Casa da Maia
 
 Propõe-se que a casa da Maia seja avaliada por um avaliador acreditado
