@@ -1,10 +1,7 @@
 Divisão da Herança de Alberto Rocha
 ================
 
-- <a href="#resumo-final-da-divisao"
-  id="toc-resumo-final-da-divisao">Resumo final da divisao</a>
-- <a href="#divisão-da-casa-da-maia"
-  id="toc-divisão-da-casa-da-maia">Divisão da Casa da Maia</a>
+# Intro
 
 Partindo dos pressupostos que
 
@@ -40,7 +37,9 @@ como tal não deve ser entendido como uma proposta estática e final.
 Propostas de valores e acréscimo de items por parte dos herdeiros serão
 facilmente implementadas.
 
-#### Fiat Punto
+# Items
+
+## Fiat Punto
 
 Ana Paula Rocha propõe aos restantes herdeiros a aquisição do Fiat Punto
 pelo valor de **3000 €**, valor superior aos valores propostos por
@@ -52,7 +51,7 @@ evidentes. O balanço após esta transação será de
 - Cristina Rocha: **-5638 €**
 - Nair Rocha: **-5638 €**
 
-#### Mitsubishi Pajero Pinin
+## Mitsubishi Pajero Pinin
 
 Alberto Rocha propõe aos restantes herdeiros a aquisição do Mitsubishi
 Pajero Pinin (…) pelo valor de **3000 €**, valor superior aos valores
@@ -64,7 +63,7 @@ desgaste evidentes. O balanço após esta transação será de
 - Cristina Rocha: **-5263 €**
 - Nair Rocha: **-5263 €**
 
-#### Recheio da Maia e de Paredes de Coura
+## Recheio da Maia e de Paredes de Coura
 
 Ana Paula Rocha propõe aos restantes herdeiros a aquisição dos recheios
 das casa da Maia e Paredes de Coura pelo valor de **4000 €**. O balanço
@@ -75,7 +74,7 @@ após esta transação será de
 - Cristina Rocha: **-4763 €**
 - Nair Rocha: **-4763 €**
 
-#### Despesas do Funeral
+## Despesas do Funeral
 
 Alberto Rocha apresenta as despesas que assumiu com o funeral de Alberto
 Rocha (Pai), no valor de de **5215.99 €**. Ana Paula Rocha recebeu para
@@ -89,7 +88,7 @@ herdeiros. O balanço após esta transação será de
 - Cristina Rocha: **-5248.8 €**
 - Nair Rocha: **-5248.8 €**
 
-#### Despesas de armazenamento do recheio de Paredes de Coura
+## Despesas de armazenamento do recheio de Paredes de Coura
 
 Para que fosse possível a venda da casa de Paredes de Coura, foi
 necessário alugar um espaço de armazenamento para o recheio da mesma.
@@ -105,7 +104,7 @@ O balanço após esta transação será:
 - Cristina Rocha: **-5344.3 €**
 - Nair Rocha: **-5344.3 €**
 
-#### Despesas com a mudança do recheio de Paredes de Coura
+## Despesas com a mudança do recheio de Paredes de Coura
 
 Para efeitos da venda da casa de Paredes de Coura, Ana Paula Rocha
 contratou os serviços da empresa de mudança José Alves em duas ocasiões:
@@ -125,7 +124,7 @@ o valor total é **905 €**. O balanço após esta transação será:
 - Cristina Rocha: **-5457.42 €**
 - Nair Rocha: **-5457.42 €**
 
-#### Despesas de Águas e Saneamento de Paredes de Coura
+## Despesas de Águas e Saneamento de Paredes de Coura
 
 Ana Paula Rocha apresenta à Herança as despesas com Água e Saneamento,
 electricidade, contrato de telecomunicações (NOS) e jardinagem e da casa
@@ -148,7 +147,7 @@ para um total de **437.66 €**. O balanço após esta transação será:
 - Cristina Rocha: **-5512.13 €**
 - Nair Rocha: **-5512.13 €**
 
-#### Despesas legais
+## Despesas legais
 
 Ana Paula Rocha apresenta despesas incorridas com Notária (**246.74 €**)
 e Advogada (**250 €**) aquando do processo de habilitação de herdeiros.
@@ -160,7 +159,7 @@ após esta transação será :
 - Cristina Rocha: **-5581.72 €**
 - Nair Rocha: **-5581.72 €**
 
-## Resumo final da divisao
+# Resumo final da divisao
 
 Seguidamente apresenta-se o resumo das operações consideradas
 anteriormente. A coluna ‘check’ soma as parcelas individuais de cada
@@ -185,7 +184,7 @@ liquidadas as diferenças apuradas. Ficarão assim concluídas as partilhas
 da herança de Alberto Rocha, com excepção da casa da Maia, que é
 discutida em seguida.
 
-## Divisão da Casa da Maia
+# Divisão da Casa da Maia
 
 Propõe-se que a casa da Maia seja avaliada por um avaliador acreditado
 pela CMVM, escolhido da lista apresentada em

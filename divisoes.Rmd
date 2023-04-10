@@ -1,14 +1,13 @@
 ---
 title: "Divisão da Herança de Alberto Rocha"
 output:
+  github_document: default
   html_document:
     toc: true
     toc_float: true
     toc_depth: 3
     number_sections: false
     theme: lumen
-  github_document:
-    html_preview: true
 ---
 
 ```{r, include = F}
