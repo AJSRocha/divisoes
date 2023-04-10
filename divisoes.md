@@ -32,10 +32,10 @@ para a divisão do património móvel da herança, bem como ressarcimento
 das despesas incorridas pelos herdeiros no âmbito desta. O balanço
 existente referido acima será actualizado após cada divisão, reflectindo
 o valor que cabe a cada herdeiro. Como poderão ter notado, este
-documento é um markdown, podendo (e devendo), sendo por isso dinâmico e
-como tal não deve ser entendido como uma proposta estática e final.
-Propostas de valores e acréscimo de items por parte dos herdeiros serão
-facilmente implementadas.
+documento é um markdown, sendo por isso dinâmico e como tal não deve ser
+entendido como uma proposta estática e final. Propostas de valores e
+acréscimo de items por parte dos herdeiros serão facilmente
+implementadas.
 
 # Items
 
