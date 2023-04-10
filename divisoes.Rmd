@@ -43,7 +43,7 @@ Com base neste ponto de partida, apresentam-se seguidamente propostas para a div
 
 #### Fiat Punto
 
-Ana Paula Rocha propõe aos restantes herdeiros a aquisição do Fiat Punto (...) pelo valor de **`r punto = 3000; punto` €**. O balanço após esta transação será de 
+Ana Paula Rocha propõe aos restantes herdeiros a aquisição do Fiat Punto pelo valor de **`r punto = 3000; punto` €**, valor superior aos valores propostos por oficinas com stands ou revendedores dado a sua idade e desgaste evidentes. O balanço após esta transação será de 
 
 ```{r}
 berto = berto + punto/8
@@ -59,7 +59,7 @@ paula = paula - 3/8*punto
 
 #### Mitsubishi Pajero Pinin
 
-Alberto Rocha propõe aos restantes herdeiros a aquisição do Mitsubishi Pajero Pinin (...) pelo valor de **`r pinin = 3000; pinin` €**. O balanço após esta transação será de 
+Alberto Rocha propõe aos restantes herdeiros a aquisição do Mitsubishi Pajero Pinin (...) pelo valor de **`r pinin = 3000; pinin` €**, valor superior aos valores propostos por oficinas com stands ou revendedores dado a sua idade e desgaste evidentes. O balanço após esta transação será de 
 
 ```{r}
 berto = berto + pinin*-7/8
@@ -91,7 +91,7 @@ paula = paula + mobilia*-3/8
 
 #### Despesas do Funeral
 
-Alberto Rocha apresenta as despesas que assumiu com o funeral de Alberto Rocha (Pai), no valor de de **`r funeral = 5215.99; funeral` €**. Ana Paula Rocha recebeu para esse efeito um subsídio no valor de **`r subsidio = 1300.90; subsidio` €**, que será entregue a Alberto Rocha para liquidação da dívida à Agência Funerária. O valor restante da despesa (**`r funeral_subsidiado = funeral-subsidio;funeral_subsidiado` €**) será dividido entre os todos herdeiros. O balanço após esta transação será de 
+Alberto Rocha apresenta as despesas que assumiu com o funeral de Alberto Rocha (Pai), no valor de de **`r funeral = 5215.99; funeral` €**. Ana Paula Rocha recebeu para esse efeito um subsídio no valor de **`r subsidio = 1329.60; subsidio` €**, que será entregue a Alberto Rocha para liquidação da dívida à Agência Funerária. O valor restante da despesa (**`r funeral_subsidiado = funeral-subsidio;funeral_subsidiado` €**) será dividido entre os todos herdeiros. O balanço após esta transação será de 
 
 ```{r}
 berto = berto + (funeral_subsidiado)*7/8 + subsidio
@@ -131,7 +131,7 @@ Para efeitos da venda da casa de Paredes de Coura, Ana Paula Rocha contratou os 
 
 ![](comprovativos/mudanca.png)
 
-o valor total é **`r mudanca = 110 + 200 + 345 + 200; mudanca` €**. O balanço após esta transação será: 
+o valor total é **`r mudanca = 110 + 200 + 345 + 250; mudanca` €**. O balanço após esta transação será: 
 
 ```{r}
 berto = berto + mudanca*-1/8
@@ -147,7 +147,7 @@ paula = paula + mudanca*3/8
 
 #### Despesas de Águas e Saneamento de Paredes de Coura
 
-Ana Paula Rocha apresenta à Herança as despesas com Água e Saneamento da casa de Paredes de Coura incorridas até à venda da mesma:
+Ana Paula Rocha apresenta à Herança as despesas com Água e Saneamento, electricidade, contrato de telecomunicações (NOS) e jardinagem e da casa de Paredes de Coura, incorridas até à venda da mesma. As despesas com jardinagem foram **`r jardineiro = 240; jardineiro` €**. As restantes despesas consistem de mensalidades e estão discriminadas em seguida:
 
 ```{r, include = T}
 agua_coura = data.frame('Mes' = c('Junho', 'Julho', 'Agosto', 'Setembro', 'Outubro','Novembro'),
@@ -159,7 +159,7 @@ agua_coura = data.frame('Mes' = c('Junho', 'Julho', 'Agosto', 'Setembro', 'Outub
 agua_coura
 ```
 
-para um total de **`r agua = sum(agua_coura$Agua, na.rm=T) + sum(agua_coura$Electridade) + sum(agua_coura$NOS, na.rm =T);agua` €**. O balanço após esta transação será: 
+para um total de **`r agua = jardineiro + sum(agua_coura$Agua, na.rm=T) + sum(agua_coura$Electridade) + sum(agua_coura$NOS, na.rm =T);agua` €**. O balanço após esta transação será: 
 
 ```{r}
 berto = berto + agua*-1/8
@@ -173,14 +173,28 @@ paula = paula + agua*3/8
 * Cristina Rocha: **`r crist` €**
 * Nair Rocha: **`r xanda` €**
 
+#### Despesas legais
 
+Ana Paula Rocha apresenta despesas incorridas com Notária (**`r notaria = 246.74;notaria` €**) e Advogada (**`r advogada  = 250;advogada` €**) aquando do processo de habilitação de herdeiros. Acrescenta ainda custos com certidões no valor de **`r certidoes = 60;certidoes` €**. O balanço após esta transação será `r legais = advogada + notaria + certidoes`: 
+
+```{r}
+berto = berto + legais*-1/8
+xanda = xanda + legais*-1/8
+crist = crist + legais*-1/8
+paula = paula + legais*3/8
+```
+
+* Ana Paula Rocha: **`r paula` €**
+* Alberto Rocha: **`r berto` €**
+* Cristina Rocha: **`r crist` €**
+* Nair Rocha: **`r xanda` €**
 
 ## Resumo final da divisao
 
 Seguidamente apresenta-se o resumo das operações consideradas anteriormente. A coluna 'check' soma as parcelas individuais de cada item. Todos os valores são em €, os valores diferentes de 0 resultam de erros de arredondamento.
 
 ```{r, include=T}
-parcelas = c('inicial','punto','jipe','mudancas','bigbox','funeral','recheio','coura')
+parcelas = c('inicial','punto','jipe','mudancas','bigbox','funeral','recheio','coura','despesas legais')
 
 paula_sum = c('inicial' = 18039,
               'punto' = -3/8*punto,
@@ -189,7 +203,8 @@ paula_sum = c('inicial' = 18039,
               'bigbox' = -5/8*bigbox,
               'funeral' = -5/8*(funeral_subsidiado)-subsidio,
               'recheio' = -3/8*mobilia,
-              'coura' = -3/8*agua)
+              'coura' = 3/8*agua,
+              'despesas legais' = 3/8*legais)
 
 berto_sum = c('inicial' = -6013,
               'punto' = 1/8*punto,
@@ -198,7 +213,8 @@ berto_sum = c('inicial' = -6013,
               'bigbox' = 7/8*bigbox,
               'funeral' = 7/8*funeral_subsidiado + subsidio,
               'recheio' = 1/8*mobilia,
-              'coura' = 1/8*agua)
+              'coura' = -1/8*agua,
+              'despesas legais' = -1/8*legais)
 
 crist_sum = c('inicial' = -6013,
               'punto' = 1/8*punto,
@@ -207,7 +223,8 @@ crist_sum = c('inicial' = -6013,
               'bigbox' = -1/8*bigbox,
               'funeral' = -1/8*funeral_subsidiado,
               'recheio' = 1/8*mobilia,
-              'coura' = 1/8*agua)
+              'coura' = -1/8*agua,
+              'despesas legais' = -1/8*legais)
 
 xanda_sum = c('inicial' = -6013,
               'punto' = 1/8*punto,
@@ -216,7 +233,8 @@ xanda_sum = c('inicial' = -6013,
               'bigbox' = -1/8*bigbox,
               'funeral' = -1/8*funeral_subsidiado,
               'recheio' = 1/8*mobilia,
-              'coura' = 1/8*agua)
+              'coura' = -1/8*agua,
+              'despesas legais' = -1/8*legais)
 
 sumario = data.frame(cbind(paula_sum,
                            berto_sum,

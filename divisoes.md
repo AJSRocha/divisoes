@@ -38,7 +38,9 @@ facilmente implementadas.
 #### Fiat Punto
 
 Ana Paula Rocha propõe aos restantes herdeiros a aquisição do Fiat Punto
-(…) pelo valor de **3000 €**. O balanço após esta transação será de
+pelo valor de **3000 €**, valor superior aos valores propostos por
+oficinas com stands ou revendedores dado a sua idade e desgaste
+evidentes. O balanço após esta transação será de
 
 - Ana Paula Rocha: **16914 €**
 - Alberto Rocha: **-5638 €**
@@ -48,8 +50,9 @@ Ana Paula Rocha propõe aos restantes herdeiros a aquisição do Fiat Punto
 #### Mitsubishi Pajero Pinin
 
 Alberto Rocha propõe aos restantes herdeiros a aquisição do Mitsubishi
-Pajero Pinin (…) pelo valor de **3000 €**. O balanço após esta transação
-será de
+Pajero Pinin (…) pelo valor de **3000 €**, valor superior aos valores
+propostos por oficinas com stands ou revendedores dado a sua idade e
+desgaste evidentes. O balanço após esta transação será de
 
 - Ana Paula Rocha: **18789 €**
 - Alberto Rocha: **-8263 €**
@@ -71,15 +74,15 @@ após esta transação será de
 
 Alberto Rocha apresenta as despesas que assumiu com o funeral de Alberto
 Rocha (Pai), no valor de de **5215.99 €**. Ana Paula Rocha recebeu para
-esse efeito um subsídio no valor de **1300.9 €**, que será entregue a
+esse efeito um subsídio no valor de **1329.6 €**, que será entregue a
 Alberto Rocha para liquidação da dívida à Agência Funerária. O valor
-restante da despesa (**3915.09 €**) será dividido entre os todos
+restante da despesa (**3886.39 €**) será dividido entre os todos
 herdeiros. O balanço após esta transação será de
 
-- Ana Paula Rocha: **13541.17 €**
-- Alberto Rocha: **-3036.4 €**
-- Cristina Rocha: **-5252.39 €**
-- Nair Rocha: **-5252.39 €**
+- Ana Paula Rocha: **13530.41 €**
+- Alberto Rocha: **-3032.81 €**
+- Cristina Rocha: **-5248.8 €**
+- Nair Rocha: **-5248.8 €**
 
 #### Despesas de armazenamento do recheio de Paredes de Coura
 
@@ -92,10 +95,10 @@ apresentado em baixo. O valor total foi **764 €**.
 
 O balanço após esta transação será:
 
-- Ana Paula Rocha: **13063.67 €**
-- Alberto Rocha: **-2367.9 €**
-- Cristina Rocha: **-5347.89 €**
-- Nair Rocha: **-5347.89 €**
+- Ana Paula Rocha: **13052.91 €**
+- Alberto Rocha: **-2364.31 €**
+- Cristina Rocha: **-5344.3 €**
+- Nair Rocha: **-5344.3 €**
 
 #### Despesas com a mudança do recheio de Paredes de Coura
 
@@ -110,17 +113,20 @@ mudança, no valor de **250 €**.
 
 ![](comprovativos/mudanca.png)
 
-o valor total é **855 €**. O balanço após esta transação será:
+o valor total é **905 €**. O balanço após esta transação será:
 
-- Ana Paula Rocha: **13384.29 €**
-- Alberto Rocha: **-2474.77 €**
-- Cristina Rocha: **-5454.76 €**
-- Nair Rocha: **-5454.76 €**
+- Ana Paula Rocha: **13392.28 €**
+- Alberto Rocha: **-2477.43 €**
+- Cristina Rocha: **-5457.42 €**
+- Nair Rocha: **-5457.42 €**
 
 #### Despesas de Águas e Saneamento de Paredes de Coura
 
-Ana Paula Rocha apresenta à Herança as despesas com Água e Saneamento da
-casa de Paredes de Coura incorridas até à venda da mesma:
+Ana Paula Rocha apresenta à Herança as despesas com Água e Saneamento,
+electricidade, contrato de telecomunicações (NOS) e jardinagem e da casa
+de Paredes de Coura, incorridas até à venda da mesma. As despesas com
+jardinagem foram **240 €**. As restantes despesas consistem de
+mensalidades e estão discriminadas em seguida:
 
     ##        Mes Agua Electridade NOS
     ## 1    Junho  4.9          26  36
@@ -130,12 +136,24 @@ casa de Paredes de Coura incorridas até à venda da mesma:
     ## 5  Outubro  1.0          25  NA
     ## 6 Novembro   NA          11  NA
 
-para um total de **197.66 €**. O balanço após esta transação será:
+para um total de **437.66 €**. O balanço após esta transação será:
 
-- Ana Paula Rocha: **13458.42 €**
-- Alberto Rocha: **-2499.48 €**
-- Cristina Rocha: **-5479.47 €**
-- Nair Rocha: **-5479.47 €**
+- Ana Paula Rocha: **13556.4 €**
+- Alberto Rocha: **-2532.14 €**
+- Cristina Rocha: **-5512.13 €**
+- Nair Rocha: **-5512.13 €**
+
+#### Despesas legais
+
+Ana Paula Rocha apresenta despesas incorridas com Notária (**246.74 €**)
+e Advogada (**250 €**) aquando do processo de habilitação de herdeiros.
+Acrescenta ainda custos com certidões no valor de **60 €**. O balanço
+após esta transação será :
+
+- Ana Paula Rocha: **13765.18 €**
+- Alberto Rocha: **-2601.73 €**
+- Cristina Rocha: **-5581.72 €**
+- Nair Rocha: **-5581.72 €**
 
 ## Resumo final da divisao
 
@@ -144,16 +162,17 @@ anteriormente. A coluna ‘check’ soma as parcelas individuais de cada
 item. Todos os valores são em €, os valores diferentes de 0 resultam de
 erros de arredondamento.
 
-    ##          AnaPaula Alberto Cristina  Nair  Check
-    ## inicial     18039   -6013    -6013 -6013  0.000
-    ## punto       -1125     375      375   375  0.000
-    ## jipe         1875   -2625      375   375  0.000
-    ## mudancas      321    -107     -107  -107  0.875
-    ## bigbox       -478     668      -96   -96  0.500
-    ## funeral     -3748    4727     -489  -489  0.386
-    ## recheio     -1500     500      500   500  0.000
-    ## coura         -74      25       25    25 -0.708
-    ## Total       13310   -2450    -5430 -5430  0.054
+    ##                 AnaPaula Alberto Cristina  Nair Check
+    ## inicial            18039   -6013    -6013 -6013  0.00
+    ## punto              -1125     375      375   375  0.00
+    ## jipe                1875   -2625      375   375  0.00
+    ## mudancas             339    -113     -113  -113  0.12
+    ## bigbox              -478     668      -96   -96  0.50
+    ## funeral            -3759    4730     -486  -486  0.80
+    ## recheio            -1500     500      500   500  0.00
+    ## coura                164     -55      -55   -55  0.71
+    ## despesas legais      209     -70      -70   -70  0.59
+    ## Total              13765   -2602    -5582 -5582  0.72
 
 Propõe-se assim que, estando todas as partes de acordo com as divisões
 propostas acima e o apuramento dos respectivos balanços, sejam
