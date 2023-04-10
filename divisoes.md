@@ -1,6 +1,11 @@
 Divisão da Herança de Alberto Rocha
 ================
 
+- <a href="#resumo-final-da-divisao"
+  id="toc-resumo-final-da-divisao">Resumo final da divisao</a>
+- <a href="#divisão-da-casa-da-maia"
+  id="toc-divisão-da-casa-da-maia">Divisão da Casa da Maia</a>
+
 Partindo dos pressupostos que
 
 1)  A divisão da casa de Paredes de Coura foi feita equitativamente, o

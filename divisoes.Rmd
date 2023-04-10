@@ -1,9 +1,14 @@
 ---
 title: "Divisão da Herança de Alberto Rocha"
 output:
-  github_document: default
   html_document:
-    df_print: paged
+    toc: true
+    toc_float: true
+    toc_depth: 3
+    number_sections: true
+    theme: lumen
+  github_document:
+        html_preview: FALSE
 ---
 
 ```{r, include = F}
@@ -16,6 +21,7 @@ knitr::opts_chunk$set(echo = F,
 library(dplyr) 
 ```
 
+# Intro
 
 Partindo dos pressupostos que
 
@@ -41,7 +47,9 @@ paula = -(berto + xanda + crist)
 
 Com base neste ponto de partida, apresentam-se seguidamente propostas para a divisão do património móvel da herança, bem como ressarcimento das despesas incorridas pelos herdeiros no âmbito desta. O balanço existente referido acima será actualizado após cada divisão, reflectindo o valor que cabe a cada herdeiro. Como poderão ter notado, este documento é um markdown, podendo (e devendo), sendo por isso dinâmico e como tal não deve ser entendido como uma proposta estática e final. Propostas de valores e acréscimo de items por parte dos herdeiros serão facilmente implementadas.
 
-#### Fiat Punto
+# Items
+
+## Fiat Punto
 
 Ana Paula Rocha propõe aos restantes herdeiros a aquisição do Fiat Punto pelo valor de **`r punto = 3000; punto` €**, valor superior aos valores propostos por oficinas com stands ou revendedores dado a sua idade e desgaste evidentes. O balanço após esta transação será de 
 
@@ -57,7 +65,7 @@ paula = paula - 3/8*punto
 * Cristina Rocha: **`r crist` €**
 * Nair Rocha: **`r xanda` €**
 
-#### Mitsubishi Pajero Pinin
+## Mitsubishi Pajero Pinin
 
 Alberto Rocha propõe aos restantes herdeiros a aquisição do Mitsubishi Pajero Pinin (...) pelo valor de **`r pinin = 3000; pinin` €**, valor superior aos valores propostos por oficinas com stands ou revendedores dado a sua idade e desgaste evidentes. O balanço após esta transação será de 
 
@@ -73,7 +81,7 @@ paula = paula + pinin*5/8
 * Cristina Rocha: **`r crist` €**
 * Nair Rocha: **`r xanda` €**
 
-#### Recheio da Maia e de Paredes de Coura
+## Recheio da Maia e de Paredes de Coura
 
 Ana Paula Rocha propõe aos restantes herdeiros a aquisição dos recheios das casa da Maia e Paredes de Coura pelo valor de **`r mobilia = 4000; mobilia` €**. O balanço após esta transação será de 
 
@@ -89,7 +97,7 @@ paula = paula + mobilia*-3/8
 * Cristina Rocha: **`r crist` €**
 * Nair Rocha: **`r xanda` €**
 
-#### Despesas do Funeral
+## Despesas do Funeral
 
 Alberto Rocha apresenta as despesas que assumiu com o funeral de Alberto Rocha (Pai), no valor de de **`r funeral = 5215.99; funeral` €**. Ana Paula Rocha recebeu para esse efeito um subsídio no valor de **`r subsidio = 1329.60; subsidio` €**, que será entregue a Alberto Rocha para liquidação da dívida à Agência Funerária. O valor restante da despesa (**`r funeral_subsidiado = funeral-subsidio;funeral_subsidiado` €**) será dividido entre os todos herdeiros. O balanço após esta transação será de 
 
@@ -105,7 +113,7 @@ paula = paula + (funeral_subsidiado)*-5/8 - subsidio
 * Cristina Rocha: **`r crist` €**
 * Nair Rocha: **`r xanda` €**
 
-#### Despesas de armazenamento do recheio de Paredes de Coura
+## Despesas de armazenamento do recheio de Paredes de Coura
 
 Para que fosse possível a venda da casa de Paredes de Coura, foi necessário alugar um espaço de armazenamento para o recheio da mesma. Esse espaço foi usado entre Setembro e Dezembro de 2022, conforme apresentado em baixo. O valor total foi **`r bigbox = 764; bigbox` €**.
 
@@ -125,7 +133,7 @@ paula = paula + bigbox*-5/8
 * Cristina Rocha: **`r crist` €**
 * Nair Rocha: **`r xanda` €**
 
-#### Despesas com a mudança do recheio de Paredes de Coura
+## Despesas com a mudança do recheio de Paredes de Coura
 
 Para efeitos da venda da casa de Paredes de Coura, Ana Paula Rocha contratou os serviços da empresa de mudança José Alves em duas ocasiões: Mudança de Afe para a Big Box em Gaia e, posteriormente, da Big Box para a casa da Maia. Ambos os serviços foram pagos em dinheiros e os respectivos movimentos são apresentados seguidamente. Os primeiros 3 movimentos referem-se ao levantamento fraccionado de **655 €** devido ao limite de multibanco e mbway. O ultimo movimento corresponde à segunda mudança, no valor de **250 €**.
 
@@ -145,7 +153,7 @@ paula = paula + mudanca*3/8
 * Cristina Rocha: **`r crist` €**
 * Nair Rocha: **`r xanda` €**
 
-#### Despesas de Águas e Saneamento de Paredes de Coura
+## Despesas de Águas e Saneamento de Paredes de Coura
 
 Ana Paula Rocha apresenta à Herança as despesas com Água e Saneamento, electricidade, contrato de telecomunicações (NOS) e jardinagem e da casa de Paredes de Coura, incorridas até à venda da mesma. As despesas com jardinagem foram **`r jardineiro = 240; jardineiro` €**. As restantes despesas consistem de mensalidades e estão discriminadas em seguida:
 
@@ -173,7 +181,7 @@ paula = paula + agua*3/8
 * Cristina Rocha: **`r crist` €**
 * Nair Rocha: **`r xanda` €**
 
-#### Despesas legais
+## Despesas legais
 
 Ana Paula Rocha apresenta despesas incorridas com Notária (**`r notaria = 246.74;notaria` €**) e Advogada (**`r advogada  = 250;advogada` €**) aquando do processo de habilitação de herdeiros. Acrescenta ainda custos com certidões no valor de **`r certidoes = 60;certidoes` €**. O balanço após esta transação será `r legais = advogada + notaria + certidoes`: 
 
@@ -189,7 +197,7 @@ paula = paula + legais*3/8
 * Cristina Rocha: **`r crist` €**
 * Nair Rocha: **`r xanda` €**
 
-## Resumo final da divisao
+# Resumo final da divisao
 
 Seguidamente apresenta-se o resumo das operações consideradas anteriormente. A coluna 'check' soma as parcelas individuais de cada item. Todos os valores são em €, os valores diferentes de 0 resultam de erros de arredondamento.
 
@@ -258,7 +266,7 @@ sumario
 
 Propõe-se assim que, estando todas as partes de acordo com as divisões propostas acima e o apuramento dos respectivos balanços, sejam liquidadas as diferenças apuradas. Ficarão assim concluídas as partilhas da herança de Alberto Rocha, com excepção da casa da Maia, que é discutida em seguida.
 
-## Divisão da Casa da Maia
+# Divisão da Casa da Maia
 
 Propõe-se que a casa da Maia seja avaliada por um avaliador acreditado pela CMVM, escolhido da lista apresentada em https://web3.cmvm.pt/sdi/peritos/peritos.cfm. O valor resultante dessa avaliação caberá a cada um dos herdeiros, na proporção habitual (5-1-1-1).
 
