@@ -5,10 +5,10 @@ output:
     toc: true
     toc_float: true
     toc_depth: 3
-    number_sections: true
+    number_sections: false
     theme: lumen
   github_document:
-        html_preview: FALSE
+    html_preview: FALSE
 ---
 
 ```{r, include = F}
