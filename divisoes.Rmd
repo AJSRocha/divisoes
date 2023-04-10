@@ -145,12 +145,42 @@ paula = paula + mudanca*3/8
 * Cristina Rocha: **`r crist` €**
 * Nair Rocha: **`r xanda` €**
 
+#### Despesas de Águas e Saneamento de Paredes de Coura
+
+Ana Paula Rocha apresenta à Herança as despesas com Água e Saneamento da casa de Paredes de Coura incorridas até à venda da mesma:
+
+```{r, include = T}
+agua_coura = data.frame('Mes' = c('Junho', 'Julho', 'Agosto', 'Setembro', 'Outubro','Novembro'),
+                        'Agua' = c(4.90, 9.22, 4.34, NA, 1.05, NA),
+                        'Electridade' = c(26.13, 25.94, 26.46, 26.95, 25.46, 10.92),
+                        'NOS' = c(36.29, NA, NA, NA, NA, NA)) 
+
+
+agua_coura
+```
+
+para um total de **`r agua = sum(agua_coura$Agua, na.rm=T) + sum(agua_coura$Electridade) + sum(agua_coura$NOS, na.rm =T);agua` €**. O balanço após esta transação será: 
+
+```{r}
+berto = berto + agua*-1/8
+xanda = xanda + agua*-1/8
+crist = crist + agua*-1/8
+paula = paula + agua*3/8
+```
+
+* Ana Paula Rocha: **`r paula` €**
+* Alberto Rocha: **`r berto` €**
+* Cristina Rocha: **`r crist` €**
+* Nair Rocha: **`r xanda` €**
+
+
+
 ## Resumo final da divisao
 
 Seguidamente apresenta-se o resumo das operações consideradas anteriormente. A coluna 'check' soma as parcelas individuais de cada item. Todos os valores são em €, os valores diferentes de 0 resultam de erros de arredondamento.
 
 ```{r, include=T}
-parcelas = c('inicial','punto','jipe','mudancas','bigbox','funeral','recheio')
+parcelas = c('inicial','punto','jipe','mudancas','bigbox','funeral','recheio','coura')
 
 paula_sum = c('inicial' = 18039,
               'punto' = -3/8*punto,
@@ -158,7 +188,8 @@ paula_sum = c('inicial' = 18039,
               'mudancas' = 3/8*mudanca,
               'bigbox' = -5/8*bigbox,
               'funeral' = -5/8*(funeral_subsidiado)-subsidio,
-              'recheio' = -3/8*mobilia)
+              'recheio' = -3/8*mobilia,
+              'coura' = -3/8*agua)
 
 berto_sum = c('inicial' = -6013,
               'punto' = 1/8*punto,
@@ -166,7 +197,8 @@ berto_sum = c('inicial' = -6013,
               'mudancas' = -1/8*mudanca,
               'bigbox' = 7/8*bigbox,
               'funeral' = 7/8*funeral_subsidiado + subsidio,
-              'recheio' = 1/8*mobilia)
+              'recheio' = 1/8*mobilia,
+              'coura' = 1/8*agua)
 
 crist_sum = c('inicial' = -6013,
               'punto' = 1/8*punto,
@@ -174,7 +206,8 @@ crist_sum = c('inicial' = -6013,
               'mudancas' = -1/8*mudanca,
               'bigbox' = -1/8*bigbox,
               'funeral' = -1/8*funeral_subsidiado,
-              'recheio' = 1/8*mobilia)
+              'recheio' = 1/8*mobilia,
+              'coura' = 1/8*agua)
 
 xanda_sum = c('inicial' = -6013,
               'punto' = 1/8*punto,
@@ -182,7 +215,8 @@ xanda_sum = c('inicial' = -6013,
               'mudancas' = -1/8*mudanca,
               'bigbox' = -1/8*bigbox,
               'funeral' = -1/8*funeral_subsidiado,
-              'recheio' = 1/8*mobilia)
+              'recheio' = 1/8*mobilia,
+              'coura' = 1/8*agua)
 
 sumario = data.frame(cbind(paula_sum,
                            berto_sum,

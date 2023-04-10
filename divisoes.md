@@ -117,6 +117,26 @@ o valor total é **855 €**. O balanço após esta transação será:
 - Cristina Rocha: **-5454.76 €**
 - Nair Rocha: **-5454.76 €**
 
+#### Despesas de Águas e Saneamento de Paredes de Coura
+
+Ana Paula Rocha apresenta à Herança as despesas com Água e Saneamento da
+casa de Paredes de Coura incorridas até à venda da mesma:
+
+    ##        Mes Agua Electridade NOS
+    ## 1    Junho  4.9          26  36
+    ## 2    Julho  9.2          26  NA
+    ## 3   Agosto  4.3          26  NA
+    ## 4 Setembro   NA          27  NA
+    ## 5  Outubro  1.0          25  NA
+    ## 6 Novembro   NA          11  NA
+
+para um total de **197.66 €**. O balanço após esta transação será:
+
+- Ana Paula Rocha: **13458.42 €**
+- Alberto Rocha: **-2499.48 €**
+- Cristina Rocha: **-5479.47 €**
+- Nair Rocha: **-5479.47 €**
+
 ## Resumo final da divisao
 
 Seguidamente apresenta-se o resumo das operações consideradas
@@ -124,15 +144,16 @@ anteriormente. A coluna ‘check’ soma as parcelas individuais de cada
 item. Todos os valores são em €, os valores diferentes de 0 resultam de
 erros de arredondamento.
 
-    ##          AnaPaula Alberto Cristina  Nair Check
-    ## inicial     18039   -6013    -6013 -6013  0.00
-    ## punto       -1125     375      375   375  0.00
-    ## jipe         1875   -2625      375   375  0.00
-    ## mudancas      321    -107     -107  -107  0.88
-    ## bigbox       -478     668      -96   -96  0.50
-    ## funeral     -3748    4727     -489  -489  0.39
-    ## recheio     -1500     500      500   500  0.00
-    ## Total       13384   -2475    -5455 -5455  0.76
+    ##          AnaPaula Alberto Cristina  Nair  Check
+    ## inicial     18039   -6013    -6013 -6013  0.000
+    ## punto       -1125     375      375   375  0.000
+    ## jipe         1875   -2625      375   375  0.000
+    ## mudancas      321    -107     -107  -107  0.875
+    ## bigbox       -478     668      -96   -96  0.500
+    ## funeral     -3748    4727     -489  -489  0.386
+    ## recheio     -1500     500      500   500  0.000
+    ## coura         -74      25       25    25 -0.708
+    ## Total       13310   -2450    -5430 -5430  0.054
 
 Propõe-se assim que, estando todas as partes de acordo com as divisões
 propostas acima e o apuramento dos respectivos balanços, sejam
