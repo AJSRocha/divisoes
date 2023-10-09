@@ -186,14 +186,37 @@ discutida em seguida.
 
 # Divisão da Casa da Maia
 
-Propõe-se que a casa da Maia seja avaliada por um avaliador acreditado
-pela CMVM, escolhido da lista apresentada em
-<https://web3.cmvm.pt/sdi/peritos/peritos.cfm>. O valor resultante dessa
-avaliação caberá a cada um dos herdeiros, na proporção habitual
-(5-1-1-1).
+A casa da Maia foi avaliada por um perito certificado pela CMVM cujos
+serviços estão disponíveis em <https://amsprojetos.pt/>. O valor
+estimado para efeitos de partilha é de (**250000 €**). A análise que
+fundamenta esta avaliação bem como o certificado energético que foi
+pedido paralelamente estarão disponibilizados a todas as partes
+interessadas.
 
-Para a concretização da divisão da casa urge acordar no avaliador e
-proceder à avaliação, uma vez que sem o resultado da mesma é impossível
-prosseguir. Pede-se aos herdeiros que se pronunciem sobre a escolha do
-avaliador. Uma vez obtida a avaliação, será apresentada uma proposta de
-execução da divisão.
+Com base nesse valor, é proposto o seguinte:
+
+A casa da Maia será adquirida por Alberto Jorge de Sousa Rocha, que para
+o efeito contrairá um crédito de habitação no montante necessário para a
+aquisição por tornas das partes correspondentes a Cristina Rocha e Nair
+Rocha, cabendo a cada uma **31250** €
+
+A esse valor será acrescentado o montante do acerto de contas descrito
+anteriormente, decorrente da liquidação das dívidas e divisão dos bens
+móveis, cabendo a Cristina Rocha e Nair Rocha o total de **25668.28** €
+a cada.
+
+Ana Paula Rocha receberá de Alberto Jorge de Sousa Rocha a importância
+de **13765.18** correspondente ao seu próprio acerto de contas e à
+redução efectuada nas tornas de Cristina Rocha e Nair Rocha.
+
+**Este ultimo paragrafo depende de falarmos com o notario!!!**
+
+No momento de formalização da partilha realizar-se-á a escritura da casa
+em nome de Alberto Jorge de Sousa Rocha como único titular e a
+formalização do crédito de habitação necessário para o processamento
+desta operação. Mal esta seja finalizada, as tornas correspondentes a
+Cristina Rocha e Nair Rocha serão imediatamente pagas. Será em seguida
+formalizado em notário um contrato de pagamento de 100 € mensais a Ana
+Paula Rocha e Luis Miguel Martins Pereira, durante 782 meses, perfazendo
+o pagamento de 78125 € correspondente aos 31.25% da titularidade da casa
+da maia de que abdicaram no processo.
