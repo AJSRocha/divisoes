@@ -5,18 +5,40 @@ Divisão da Herança de Alberto Rocha
 
 Partindo dos pressupostos que
 
-1)  A divisão da casa de Paredes de Coura foi feita equitativamente, o
-    dinheiro entregue, estando esse ponto encerrado;
+1)  Todas as despesas e receitas serão divididas pelos herdeiros na
+    proporção de 5/8 para Ana Paula Rocha e 1/8 para cada um dos filhos
+    de Alberto Rocha;
 
-2)  Tal como tem sido feito até agora, todas as despesas e receitas
-    serão divididas pelos herdeiros na proporção de 5/8 para Ana Paula
-    Rocha e 1/8 para cada um dos filhos de Alberto Rocha;
+2)  A divisão da casa de Paredes de Coura foi feita equitativamente,
+    tendo o imóvel sido vendido por \*\*\*\* € e o dinheiro já entregue
+    a cada um dos herdeiros da seguinte forma, estando esse ponto
+    encerrado:
+
+- Ana Paula Rocha: **111562.5 €**
+- Alberto Rocha: **22312.5 €**
+- Cristina Rocha: **22312.5 €**
+- Nair Rocha: **22312.5 €**
 
 3)  Após a divisão integral do dinheiro resultante da venda da casa de
     Afe, herança regressou à situação inicial de ausência de capital
     disponível. Como tal, as despesas incorridas por ela desde o
-    falecimento de Alberto Rocha (Pai) foram, adiantadas por Ana Paula
-    Rocha na qualidade de cabeça de casal da herança;
+    falecimento de Alberto Rocha (Pai) foram adiantadas por Ana Paula
+    Rocha na qualidade de cabeça de casal da herança.
+
+Numa primeira fase, foi realizado o pagamento de dívidas e créditos
+pendentes. Os comprovativos referentes a esses
+
+É apresentado um resumo dessa liquidação:
+
+    ##                      Valor
+    ## Liq. Oney 1           4395
+    ## Liq. Oney 2           5105
+    ## Liq. Wizink 1         8311
+    ## Prest. Oney           2092
+    ## Prest. Wizink         3198
+    ## Divida a Luis Miguel 25000
+    ## Total                48101
+    ## 1/8                   6013
 
 4)  Após a liquidação das dívidas e créditos pessoais conforme acordado
     na correspondência anterior, esse adiantamento por Ana Paula Rocha
