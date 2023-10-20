@@ -10,14 +10,16 @@ Partindo dos pressupostos que
     de Alberto Rocha;
 
 2)  A divisão da casa de Paredes de Coura foi feita equitativamente,
-    tendo o imóvel sido vendido por \*\*\*\* € e o dinheiro já entregue
-    a cada um dos herdeiros da seguinte forma, estando esse ponto
-    encerrado:
+    tendo o imóvel sido vendido por **178000** €. Após dedução da
+    comissão da agência imobiliária (5% + 23% IVA) e da taxa Adene para
+    o acto da escritura (258.92 €), cada herdeiro recebeu:
 
-- Ana Paula Rocha: **111562.5 €**
-- Alberto Rocha: **22312.5 €**
-- Cristina Rocha: **22312.5 €**
-- Nair Rocha: **22312.5 €**
+- Ana Paula Rocha: **104246.3 €**
+- Alberto Rocha: **20849.26 €**
+- Cristina Rocha: **20849.26 €**
+- Nair Rocha: **20849.26 €**
+
+Conforme acordado, estes valores já foram entregues a cada herdeiro.
 
 3)  Após a divisão integral do dinheiro resultante da venda da casa de
     Afe, herança regressou à situação inicial de ausência de capital
@@ -26,9 +28,9 @@ Partindo dos pressupostos que
     Rocha na qualidade de cabeça de casal da herança.
 
 Numa primeira fase, foi realizado o pagamento de dívidas e créditos
-pendentes. Os comprovativos referentes a esses
-
-É apresentado um resumo dessa liquidação:
+pendentes. A documentação e comprovativos referentes a esses pagamentos
+foram comunicados e aprovados por e-mail previamente. É apresentado um
+resumo dos valores liquidados nesta fase:
 
     ##                      Valor
     ## Liq. Oney 1           4395
@@ -40,9 +42,9 @@ pendentes. Os comprovativos referentes a esses
     ## Total                48101
     ## 1/8                   6013
 
-4)  Após a liquidação das dívidas e créditos pessoais conforme acordado
-    na correspondência anterior, esse adiantamento por Ana Paula Rocha
-    traduz-se num balanço entre os herdeiros de:
+4)  Após a liquidação das dívidas e créditos pessoais referidos no ponto
+    anterior, esse adiantamento por Ana Paula Rocha traduz-se num
+    balanço entre os herdeiros de:
 
 - Ana Paula Rocha: **18039 €**
 - Alberto Rocha: **-6013 €**
@@ -50,40 +52,54 @@ pendentes. Os comprovativos referentes a esses
 - Nair Rocha: **-6013 €**
 
 Com base neste ponto de partida, apresentam-se seguidamente propostas
-para a divisão do património móvel da herança, bem como ressarcimento
-das despesas incorridas pelos herdeiros no âmbito desta. O balanço
-existente referido acima será actualizado após cada divisão, reflectindo
-o valor que cabe a cada herdeiro. Como poderão ter notado, este
-documento é um markdown, sendo por isso dinâmico e como tal não deve ser
-entendido como uma proposta estática e final. Propostas de valores e
-acréscimo de items por parte dos herdeiros serão facilmente
+para a divisão do património móvel da herança, para o ressarcimento das
+despesas incorridas pelos herdeiros no âmbito desta e para a divisão da
+casa da Maia. O balanço existente referido acima será actualizado após
+cada divisão, reflectindo o valor que cabe a cada herdeiro. Como poderão
+ter notado, este documento é um markdown, sendo por isso dinâmico e como
+tal não deve ser entendido como uma proposta estática e final. Propostas
+de valores e acréscimo de items por parte dos herdeiros serão facilmente
 implementadas.
 
 # Items
 
 ## Fiat Punto
 
-Ana Paula Rocha propõe aos restantes herdeiros a aquisição do Fiat Punto
-pelo valor de **3000 €**, valor superior aos valores propostos por
-oficinas com stands ou revendedores dado a sua idade e desgaste
-evidentes. O balanço após esta transação será de
+Foi pedida a avaliação do estado da viatura a Nelson Ribeiro, da
+MOTORVAP - Hyundai Porto. O valor estimado de mercado para a mesma foi
+de 1800 €.
 
-- Ana Paula Rocha: **16914 €**
-- Alberto Rocha: **-5638 €**
-- Cristina Rocha: **-5638 €**
-- Nair Rocha: **-5638 €**
+![](comprovativos/punto_0.png)
+
+![](comprovativos/punto_1.png)
+
+Levando esta avaliação em conta, Ana Paula Rocha propõe aos restantes
+herdeiros a aquisição do Fiat Punto pelo valor de **2000 €**. O balanço
+após esta transação será de
+
+- Ana Paula Rocha: **17289 €**
+- Alberto Rocha: **-5763 €**
+- Cristina Rocha: **-5763 €**
+- Nair Rocha: **-5763 €**
 
 ## Mitsubishi Pajero Pinin
 
-Alberto Rocha propõe aos restantes herdeiros a aquisição do Mitsubishi
-Pajero Pinin (…) pelo valor de **3000 €**, valor superior aos valores
-propostos por oficinas com stands ou revendedores dado a sua idade e
-desgaste evidentes. O balanço após esta transação será de
+Foi pedida a avaliação do estado da viatura a Nelson Ribeiro, da
+MOTORVAP - Hyundai Porto. O valor estimado de mercado para a mesma foi
+de 1800 €.
 
-- Ana Paula Rocha: **18789 €**
-- Alberto Rocha: **-8263 €**
-- Cristina Rocha: **-5263 €**
-- Nair Rocha: **-5263 €**
+![](comprovativos/pinin_0.png)
+
+![](comprovativos/pinin_1.png)
+
+Alberto Rocha propõe aos restantes herdeiros a aquisição do Mitsubishi
+Pajero Pinin pelo valor de **2000 €**. O balanço após esta transação
+será de
+
+- Ana Paula Rocha: **18539 €**
+- Alberto Rocha: **-7513 €**
+- Cristina Rocha: **-5513 €**
+- Nair Rocha: **-5513 €**
 
 ## Recheio da Maia e de Paredes de Coura
 
@@ -91,10 +107,10 @@ Ana Paula Rocha propõe aos restantes herdeiros a aquisição dos recheios
 das casa da Maia e Paredes de Coura pelo valor de **4000 €**. O balanço
 após esta transação será de
 
-- Ana Paula Rocha: **17289 €**
-- Alberto Rocha: **-7763 €**
-- Cristina Rocha: **-4763 €**
-- Nair Rocha: **-4763 €**
+- Ana Paula Rocha: **17039 €**
+- Alberto Rocha: **-7013 €**
+- Cristina Rocha: **-5013 €**
+- Nair Rocha: **-5013 €**
 
 ## Despesas do Funeral
 
@@ -105,10 +121,10 @@ Alberto Rocha para liquidação da dívida à Agência Funerária. O valor
 restante da despesa (**3886.39 €**) será dividido entre os todos
 herdeiros. O balanço após esta transação será de
 
-- Ana Paula Rocha: **13530.41 €**
-- Alberto Rocha: **-3032.81 €**
-- Cristina Rocha: **-5248.8 €**
-- Nair Rocha: **-5248.8 €**
+- Ana Paula Rocha: **13280.41 €**
+- Alberto Rocha: **-2282.81 €**
+- Cristina Rocha: **-5498.8 €**
+- Nair Rocha: **-5498.8 €**
 
 ## Despesas de armazenamento do recheio de Paredes de Coura
 
@@ -121,10 +137,10 @@ apresentado em baixo. O valor total foi **764 €**.
 
 O balanço após esta transação será:
 
-- Ana Paula Rocha: **13052.91 €**
-- Alberto Rocha: **-2364.31 €**
-- Cristina Rocha: **-5344.3 €**
-- Nair Rocha: **-5344.3 €**
+- Ana Paula Rocha: **12802.91 €**
+- Alberto Rocha: **-1614.31 €**
+- Cristina Rocha: **-5594.3 €**
+- Nair Rocha: **-5594.3 €**
 
 ## Despesas com a mudança do recheio de Paredes de Coura
 
@@ -141,10 +157,10 @@ mudança, no valor de **250 €**.
 
 o valor total é **905 €**. O balanço após esta transação será:
 
-- Ana Paula Rocha: **13392.28 €**
-- Alberto Rocha: **-2477.43 €**
-- Cristina Rocha: **-5457.42 €**
-- Nair Rocha: **-5457.42 €**
+- Ana Paula Rocha: **13142.28 €**
+- Alberto Rocha: **-1727.43 €**
+- Cristina Rocha: **-5707.42 €**
+- Nair Rocha: **-5707.42 €**
 
 ## Despesas de Águas e Saneamento de Paredes de Coura
 
@@ -164,10 +180,10 @@ mensalidades e estão discriminadas em seguida:
 
 para um total de **437.66 €**. O balanço após esta transação será:
 
-- Ana Paula Rocha: **13556.4 €**
-- Alberto Rocha: **-2532.14 €**
-- Cristina Rocha: **-5512.13 €**
-- Nair Rocha: **-5512.13 €**
+- Ana Paula Rocha: **13306.4 €**
+- Alberto Rocha: **-1782.14 €**
+- Cristina Rocha: **-5762.13 €**
+- Nair Rocha: **-5762.13 €**
 
 ## Despesas legais
 
@@ -176,10 +192,30 @@ e Advogada (**250 €**) aquando do processo de habilitação de herdeiros.
 Acrescenta ainda custos com certidões no valor de **60 €**. O balanço
 após esta transação será :
 
-- Ana Paula Rocha: **13765.18 €**
-- Alberto Rocha: **-2601.73 €**
-- Cristina Rocha: **-5581.72 €**
-- Nair Rocha: **-5581.72 €**
+- Ana Paula Rocha: **13515.18 €**
+- Alberto Rocha: **-1851.73 €**
+- Cristina Rocha: **-5831.72 €**
+- Nair Rocha: **-5831.72 €**
+
+## Encargos com manutenção das viaturas e casa da Maia durante período de partilhas
+
+No período em que as viaturas permaneceram em nome da herança, Ana Paula
+Rocha apresenta os seguintes encargos nos quais incorreu:
+
+Imposto Único de Circulação do Fiat Punto:
+![](comprovativos/iuc_punto_2022.png)
+
+Imposto Único de Circulação do Mitsubishi Pajero Pinin:
+![](comprovativos/iuc_pinin_2022.png) Imposto Municipal sobre Imóveis da
+casa da Maia (primeira linha): ![](comprovativos/imi_maia_2022.jpg)
+
+Estas despesas totalizam **494.24**, € sendo o balanço dos herdeiros
+após a sua contabilização o seguinte:
+
+- Ana Paula Rocha: **13700.52 €**
+- Alberto Rocha: **-1913.51 €**
+- Cristina Rocha: **-5893.5 €**
+- Nair Rocha: **-5893.5 €**
 
 # Resumo final da divisao
 
@@ -190,15 +226,16 @@ erros de arredondamento.
 
     ##                 AnaPaula Alberto Cristina  Nair Check
     ## inicial            18039   -6013    -6013 -6013  0.00
-    ## punto              -1125     375      375   375  0.00
-    ## jipe                1875   -2625      375   375  0.00
+    ## punto               -750     250      250   250  0.00
+    ## jipe                1250   -1750      250   250  0.00
     ## mudancas             339    -113     -113  -113  0.12
     ## bigbox              -478     668      -96   -96  0.50
     ## funeral            -3759    4730     -486  -486  0.80
     ## recheio            -1500     500      500   500  0.00
     ## coura                164     -55      -55   -55  0.71
     ## despesas legais      209     -70      -70   -70  0.59
-    ## Total              13765   -2602    -5582 -5582  0.72
+    ## impostos             185     -62      -62   -62  0.78
+    ## Total              13701   -1914    -5894 -5894  0.50
 
 Propõe-se assim que, estando todas as partes de acordo com as divisões
 propostas acima e o apuramento dos respectivos balanços, sejam
@@ -224,11 +261,11 @@ Rocha, cabendo a cada uma **31250** €
 
 A esse valor será acrescentado o montante do acerto de contas descrito
 anteriormente, decorrente da liquidação das dívidas e divisão dos bens
-móveis, cabendo a Cristina Rocha e Nair Rocha o total de **25668.28** €
-a cada.
+móveis, cabendo a Cristina Rocha e Nair Rocha o total de **25356.5** € a
+cada.
 
 Ana Paula Rocha receberá de Alberto Jorge de Sousa Rocha a importância
-de **13765.18** correspondente ao seu próprio acerto de contas e à
+de **13700.52** correspondente ao seu próprio acerto de contas e à
 redução efectuada nas tornas de Cristina Rocha e Nair Rocha.
 
 **Este ultimo paragrafo depende de falarmos com o notario!!!**

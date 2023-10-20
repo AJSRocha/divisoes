@@ -29,12 +29,14 @@ Partindo dos pressupostos que
 
 1) Todas as despesas e receitas serão divididas pelos herdeiros na proporção de 5/8 para Ana Paula Rocha e 1/8 para cada um dos filhos de Alberto Rocha;
 
-2) A divisão da casa de Paredes de Coura foi feita equitativamente, tendo o imóvel sido vendido por **`r casa_coura = 178500`** € e o dinheiro já entregue a cada um dos herdeiros da seguinte forma, estando esse ponto encerrado:
+2) A divisão da casa de Paredes de Coura foi feita equitativamente, tendo o imóvel sido vendido por **`r casa_coura = 178000; casa_coura`** €. Após dedução da comissão da agência imobiliária (5% + 23% IVA) e da taxa Adene para o acto da escritura (258.92 €), cada herdeiro recebeu: 
 
-* Ana Paula Rocha: **`r casa_coura*5/8` €**
-* Alberto Rocha: **`r casa_coura/8` €**
-* Cristina Rocha: **`r casa_coura/8` €**
-* Nair Rocha: **`r casa_coura/8` €**
+* Ana Paula Rocha: **`r (casa_coura -0)*(1-0.0615)*5/8 -5*258.92/8` €**
+* Alberto Rocha: **`r (casa_coura -0)*(1-0.0615)/8 -258.92/8` €**
+* Cristina Rocha: **`r (casa_coura -0)*(1-0.0615)/8 -258.92/8` €**
+* Nair Rocha: **`r (casa_coura-0)*(1-0.0615)/8 -258.92/8` €**
+
+Conforme acordado, estes valores já foram entregues a cada herdeiro.
 
 3) Após a divisão integral do dinheiro resultante da venda da casa de Afe, herança regressou à situação inicial de ausência de capital disponível. Como tal, as despesas incorridas por ela desde o falecimento de Alberto Rocha (Pai) foram adiantadas por Ana Paula Rocha na qualidade de cabeça de casal da herança.
 
@@ -91,7 +93,13 @@ Com base neste ponto de partida, apresentam-se seguidamente propostas para a div
 
 ## Fiat Punto
 
-Ana Paula Rocha propõe aos restantes herdeiros a aquisição do Fiat Punto pelo valor de **`r punto = 3000; punto` €**, valor superior aos valores propostos por oficinas com stands ou revendedores dado a sua idade e desgaste evidentes. O balanço após esta transação será de 
+Foi pedida a avaliação do estado da viatura a Nelson Ribeiro, da MOTORVAP - Hyundai Porto. O valor estimado de mercado para a mesma foi de 1800 €. 
+
+![](comprovativos/punto_0.png)
+
+![](comprovativos/punto_1.png)
+
+Levando esta avaliação em conta, Ana Paula Rocha propõe aos restantes herdeiros a aquisição do Fiat Punto pelo valor de **`r punto = 2000; punto` €**. O balanço após esta transação será de 
 
 ```{r}
 berto = berto + punto/8
@@ -107,7 +115,13 @@ paula = paula - 3/8*punto
 
 ## Mitsubishi Pajero Pinin
 
-Alberto Rocha propõe aos restantes herdeiros a aquisição do Mitsubishi Pajero Pinin (...) pelo valor de **`r pinin = 3000; pinin` €**, valor superior aos valores propostos por oficinas com stands ou revendedores dado a sua idade e desgaste evidentes. O balanço após esta transação será de 
+Foi pedida a avaliação do estado da viatura a Nelson Ribeiro, da MOTORVAP - Hyundai Porto. O valor estimado de mercado para a mesma foi de 1800 €. 
+
+![](comprovativos/pinin_0.png)
+
+![](comprovativos/pinin_1.png)
+
+Alberto Rocha propõe aos restantes herdeiros a aquisição do Mitsubishi Pajero Pinin pelo valor de **`r pinin = 2000; pinin` €**. O balanço após esta transação será de 
 
 ```{r}
 berto = berto + pinin*-7/8
@@ -237,12 +251,39 @@ paula = paula + legais*3/8
 * Cristina Rocha: **`r crist` €**
 * Nair Rocha: **`r xanda` €**
 
+
+## Encargos com manutenção das viaturas e casa da Maia durante período de partilhas
+
+No período em que as viaturas permaneceram em nome da herança, Ana Paula Rocha apresenta os seguintes encargos nos quais incorreu:
+
+Imposto Único de Circulação do Fiat Punto:
+![](comprovativos/iuc_punto_2022.png)
+
+Imposto Único de Circulação do Mitsubishi Pajero Pinin:
+![](comprovativos/iuc_pinin_2022.png)
+Imposto Municipal sobre Imóveis da casa da Maia (primeira linha):
+![](comprovativos/imi_maia_2022.jpg)
+
+Estas despesas totalizam **`r impostos = 153.85 + 133 + 207.39;impostos`**, € sendo o balanço dos herdeiros após a sua contabilização o seguinte:
+
+```{r}
+berto = berto + impostos*-1/8
+xanda = xanda + impostos*-1/8
+crist = crist + impostos*-1/8
+paula = paula + impostos*3/8
+```
+
+* Ana Paula Rocha: **`r paula` €**
+* Alberto Rocha: **`r berto` €**
+* Cristina Rocha: **`r crist` €**
+* Nair Rocha: **`r xanda` €**
+
 # Resumo final da divisao
 
 Seguidamente apresenta-se o resumo das operações consideradas anteriormente. A coluna 'check' soma as parcelas individuais de cada item. Todos os valores são em €, os valores diferentes de 0 resultam de erros de arredondamento.
 
 ```{r, include=T}
-parcelas = c('inicial','punto','jipe','mudancas','bigbox','funeral','recheio','coura','despesas legais')
+parcelas = c('inicial','punto','jipe','mudancas','bigbox','funeral','recheio','coura','despesas legais', 'impostos')
 
 paula_sum = c('inicial' = 18039,
               'punto' = -3/8*punto,
@@ -252,7 +293,8 @@ paula_sum = c('inicial' = 18039,
               'funeral' = -5/8*(funeral_subsidiado)-subsidio,
               'recheio' = -3/8*mobilia,
               'coura' = 3/8*agua,
-              'despesas legais' = 3/8*legais)
+              'despesas legais' = 3/8*legais,
+              'impostos' = 3/8 * impostos)
 
 berto_sum = c('inicial' = -6013,
               'punto' = 1/8*punto,
@@ -262,7 +304,8 @@ berto_sum = c('inicial' = -6013,
               'funeral' = 7/8*funeral_subsidiado + subsidio,
               'recheio' = 1/8*mobilia,
               'coura' = -1/8*agua,
-              'despesas legais' = -1/8*legais)
+              'despesas legais' = -1/8*legais,
+              'impostos' = -1/8 * impostos)
 
 crist_sum = c('inicial' = -6013,
               'punto' = 1/8*punto,
@@ -272,7 +315,8 @@ crist_sum = c('inicial' = -6013,
               'funeral' = -1/8*funeral_subsidiado,
               'recheio' = 1/8*mobilia,
               'coura' = -1/8*agua,
-              'despesas legais' = -1/8*legais)
+              'despesas legais' = -1/8*legais,
+              'impostos' = -1/8 * impostos)
 
 xanda_sum = c('inicial' = -6013,
               'punto' = 1/8*punto,
@@ -282,7 +326,8 @@ xanda_sum = c('inicial' = -6013,
               'funeral' = -1/8*funeral_subsidiado,
               'recheio' = 1/8*mobilia,
               'coura' = -1/8*agua,
-              'despesas legais' = -1/8*legais)
+              'despesas legais' = -1/8*legais,
+              'impostos' = -1/8 * impostos)
 
 sumario = data.frame(cbind(paula_sum,
                            berto_sum,
