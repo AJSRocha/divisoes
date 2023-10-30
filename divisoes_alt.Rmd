@@ -265,33 +265,6 @@ paula = paula + legais*3/8
 * Cristina Rocha: **`r crist` €**
 * Nair Rocha: **`r xanda` €**
 
-
-## Encargos com manutenção das viaturas e casa da Maia durante período de partilhas
-
-No período em que as viaturas permaneceram em nome da herança, Ana Paula Rocha apresenta os seguintes encargos nos quais incorreu:
-
-Imposto Único de Circulação do Fiat Punto:
-![](comprovativos/iuc_punto_2022.png)
-
-Imposto Único de Circulação do Mitsubishi Pajero Pinin:
-![](comprovativos/iuc_pinin_2022.png)
-Imposto Municipal sobre Imóveis da casa da Maia (primeira linha):
-![](comprovativos/imi_maia_2022.jpg)
-
-Estas despesas totalizam **`r impostos = 153.85 + 133 + 207.39;impostos`**, € sendo o balanço dos herdeiros após a sua contabilização o seguinte:
-
-```{r}
-berto = berto + impostos*-1/8
-xanda = xanda + impostos*-1/8
-crist = crist + impostos*-1/8
-paula = paula + impostos*3/8
-```
-
-* Ana Paula Rocha: **`r paula` €**
-* Alberto Rocha: **`r berto` €**
-* Cristina Rocha: **`r crist` €**
-* Nair Rocha: **`r xanda` €**
-
 # Resumo final da divisao
 
 Seguidamente apresenta-se o resumo das operações consideradas anteriormente. A coluna 'check' soma as parcelas individuais de cada item. Todos os valores são em €, os valores diferentes de 0 resultam de erros de arredondamento.
@@ -300,8 +273,7 @@ Seguidamente apresenta-se o resumo das operações consideradas anteriormente. A
 parcelas = c('inicial','santander_ordem','santander_credito',
              'punto','jipe','mudancas',
              'bigbox','funeral',
-             'recheio','coura','despesas legais',
-             'impostos')
+             'recheio','coura','despesas legais')
 
 paula_sum = c('inicial' = 18039,
               'santander_ordem' = 3/8*santander_ordem,
@@ -313,8 +285,7 @@ paula_sum = c('inicial' = 18039,
               'funeral' = -5/8*(funeral_subsidiado)-subsidio,
               'recheio' = -3/8*mobilia,
               'coura' = 3/8*agua,
-              'despesas legais' = 3/8*legais,
-              'impostos' = 3/8 * impostos)
+              'despesas legais' = 3/8*legais)
 
 berto_sum = c('inicial' = -6013,
               'santander_ordem' = -1/8*santander_ordem,
@@ -326,8 +297,7 @@ berto_sum = c('inicial' = -6013,
               'funeral' = 7/8*funeral_subsidiado + subsidio,
               'recheio' = 1/8*mobilia,
               'coura' = -1/8*agua,
-              'despesas legais' = -1/8*legais,
-              'impostos' = -1/8 * impostos)
+              'despesas legais' = -1/8*legais)
 
 crist_sum = c('inicial' = -6013,
               'santander_ordem' = -1/8*santander_ordem,
@@ -339,8 +309,7 @@ crist_sum = c('inicial' = -6013,
               'funeral' = -1/8*funeral_subsidiado,
               'recheio' = 1/8*mobilia,
               'coura' = -1/8*agua,
-              'despesas legais' = -1/8*legais,
-              'impostos' = -1/8 * impostos)
+              'despesas legais' = -1/8*legais)
 
 xanda_sum = c('inicial' = -6013,
               'santander_ordem' = -1/8*santander_ordem,
@@ -352,8 +321,7 @@ xanda_sum = c('inicial' = -6013,
               'funeral' = -1/8*funeral_subsidiado,
               'recheio' = 1/8*mobilia,
               'coura' = -1/8*agua,
-              'despesas legais' = -1/8*legais,
-              'impostos' = -1/8 * impostos)
+              'despesas legais' = -1/8*legais)
 
 sumario = data.frame(cbind(paula_sum,
                            berto_sum,

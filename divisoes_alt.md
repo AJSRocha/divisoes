@@ -210,26 +210,6 @@ após esta transação será :
 - Cristina Rocha: **-6272.73 €**
 - Nair Rocha: **-6272.73 €**
 
-## Encargos com manutenção das viaturas e casa da Maia durante período de partilhas
-
-No período em que as viaturas permaneceram em nome da herança, Ana Paula
-Rocha apresenta os seguintes encargos nos quais incorreu:
-
-Imposto Único de Circulação do Fiat Punto:
-![](comprovativos/iuc_punto_2022.png)
-
-Imposto Único de Circulação do Mitsubishi Pajero Pinin:
-![](comprovativos/iuc_pinin_2022.png) Imposto Municipal sobre Imóveis da
-casa da Maia (primeira linha): ![](comprovativos/imi_maia_2022.jpg)
-
-Estas despesas totalizam **494.24**, € sendo o balanço dos herdeiros
-após a sua contabilização o seguinte:
-
-- Ana Paula Rocha: **15023.52 €**
-- Alberto Rocha: **-2354.52 €**
-- Cristina Rocha: **-6334.5 €**
-- Nair Rocha: **-6334.5 €**
-
 # Resumo final da divisao
 
 Seguidamente apresenta-se o resumo das operações consideradas
@@ -249,8 +229,7 @@ erros de arredondamento.
     ## recheio              -1500     500      500   500 0.0000
     ## coura                  164     -55      -55   -55 0.7075
     ## despesas legais        209     -70      -70   -70 0.5925
-    ## impostos               185     -62      -62   -62 0.7800
-    ## Total                15024   -2355    -6335 -6335 0.5050
+    ## Total                14838   -2293    -6273 -6273 0.7250
 
 Propõe-se assim que, estando todas as partes de acordo com as divisões
 propostas acima e o apuramento dos respectivos balanços, sejam
@@ -274,9 +253,9 @@ Acrescentando o balanço anterior, cada herdeiro receberá assim, como
 total da partilha da herança de Alberto Rocha e acrescendo à divisão da
 casa de Afe, o valor de :
 
-- Alberto Rocha: **29520.48 €**
-- Cristina Rocha: **25540.49 €**
-- Nair Rocha: **25540.49 €**
+- Alberto Rocha: **29582.26 €**
+- Cristina Rocha: **25602.28 €**
+- Nair Rocha: **25602.28 €**
 
 Com a entrega destes valores por parte de Ana Paula Rocha a cada um dos
 restantes herdeiros, ficaria assim concluido o processo de partilhas da
