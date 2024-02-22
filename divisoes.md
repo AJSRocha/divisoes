@@ -220,16 +220,16 @@ Imposto Único de Circulação do Fiat Punto:
 
 Imposto Único de Circulação do Mitsubishi Pajero Pinin:
 ![](comprovativos/iuc_pinin_2022.png) Imposto Municipal sobre Imóveis da
-casa da Maia (linhas 3 e 4):
+casa da Maia (linhas 3 e 4) e IUC de 2024 (última linha):
 ![size=150](comprovativos/imi_actualizado.jpg)
 
-Estas despesas totalizam **701.65**, € sendo o balanço dos herdeiros
+Estas despesas totalizam **855.46**, € sendo o balanço dos herdeiros
 após a sua contabilização o seguinte:
 
-- Ana Paula Rocha: **15351.3 €**
-- Alberto Rocha: **-3130.44 €**
-- Cristina Rocha: **-6110.43 €**
-- Nair Rocha: **-6110.43 €**
+- Ana Paula Rocha: **15408.98 €**
+- Alberto Rocha: **-3149.67 €**
+- Cristina Rocha: **-6129.66 €**
+- Nair Rocha: **-6129.66 €**
 
 ## Despesas de avaliação da casa da Maia
 
@@ -246,10 +246,10 @@ Emissão do certificado energético:
 
 A inclusão destas despesas resulta no seguinte balanço:
 
-- Ana Paula Rocha: **15579.62 €**
-- Alberto Rocha: **-3206.55 €**
-- Cristina Rocha: **-6186.54 €**
-- Nair Rocha: **-6186.54 €**
+- Ana Paula Rocha: **15637.3 €**
+- Alberto Rocha: **-3225.77 €**
+- Cristina Rocha: **-6205.76 €**
+- Nair Rocha: **-6205.76 €**
 
 # Resumo final da divisao
 
@@ -270,9 +270,9 @@ erros de arredondamento.
     ## recheio              -1500     500      500   500 0.0000
     ## coura                  164     -55      -55   -55 0.7075
     ## despesas legais        209     -70      -70   -70 0.5925
-    ## impostos               263     -88      -88   -88 0.7063
+    ## impostos               321    -107     -107  -107 0.9325
     ## avaliacoes             228     -76      -76   -76 0.1063
-    ## Total                15580   -3207    -6187 -6187 0.5375
+    ## Total                15637   -3226    -6206 -6206 0.7638
 
 Propõe-se assim que, estando todas as partes de acordo com as divisões
 propostas acima e o apuramento dos respectivos balanços, sejam
@@ -296,9 +296,9 @@ Acrescentando o balanço anterior, cada herdeiro receberá assim, como
 total da partilha da herança de Alberto Rocha e acrescendo à divisão da
 casa de Afe, o valor de :
 
-- Alberto Rocha: **28668.45 €**
-- Cristina Rocha: **25688.46 €**
-- Nair Rocha: **25688.46 €**
+- Alberto Rocha: **28649.23 €**
+- Cristina Rocha: **25669.24 €**
+- Nair Rocha: **25669.24 €**
 
 Com a entrega destes valores por parte de Ana Paula Rocha a cada um dos
 restantes herdeiros, ficaria assim concluido o processo de partilhas da
