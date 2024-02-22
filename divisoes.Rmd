@@ -113,7 +113,7 @@ Foi pedida a avaliação do estado da viatura a Nelson Ribeiro, da MOTORVAP - Hy
 
 ![](comprovativos/punto_1.png)
 
-Levando esta avaliação em conta, Ana Paula Rocha propõe aos restantes herdeiros a aquisição do Fiat Punto pelo valor de **`r punto = 2000; punto` €**. O balanço após esta transação será de 
+Levando esta avaliação em conta, Ana Paula Rocha propõe aos restantes herdeiros a aquisição do Fiat Punto pelo valor de **`r punto = 3000; punto` €**. O balanço após esta transação será de 
 
 ```{r}
 berto = berto + punto/8
@@ -135,7 +135,7 @@ Foi pedida a avaliação do estado da viatura a Nelson Ribeiro, da MOTORVAP - Hy
 
 ![](comprovativos/pinin_1.png)
 
-Alberto Rocha propõe aos restantes herdeiros a aquisição do Mitsubishi Pajero Pinin pelo valor de **`r pinin = 2000; pinin` €**. O balanço após esta transação será de 
+Alberto Rocha propõe aos restantes herdeiros a aquisição do Mitsubishi Pajero Pinin pelo valor de **`r pinin = 3000; pinin` €**. O balanço após esta transação será de 
 
 ```{r}
 berto = berto + pinin*-7/8
@@ -291,7 +291,32 @@ paula = paula + impostos*3/8
 * Alberto Rocha: **`r berto` €**
 * Cristina Rocha: **`r crist` €**
 * Nair Rocha: **`r xanda` €**
+ 
+## Despesas de avaliação da casa da Maia
 
+Ana Paula Rocha apresenta despesas relativas à avaliação formal da casa da Maia através de peritos certificados pela Comissão de Mercado de Valores Mobiliários (**CMVM**), pelo valor de **`r avaliacao_cmvm = 307.5; avaliacao_cmvm`** €. Foi também solicitada ao avaliador um certificado energético, cuja fatura (**`r certificado_energetico = 301.35; certificado_energetico`** €) também se apresenta:
+
+Avaliação CMVM do imóvel: 
+![](comprovativos/fatura_avaliacao.png)
+
+Emissão do certificado energético: 
+![](comprovativos/fatura_certificado_energetico.png)
+
+A inclusão destas despesas resulta no seguinte balanço:
+
+```{r}
+avaliacoes_imovel = (certificado_energetico + avaliacao_cmvm)
+berto = berto + (avaliacoes_imovel)*-1/8
+xanda = xanda + (avaliacoes_imovel)*-1/8
+crist = crist + (avaliacoes_imovel)*-1/8
+paula = paula + (avaliacoes_imovel)*3/8
+```
+
+* Ana Paula Rocha: **`r paula` €**
+* Alberto Rocha: **`r berto` €**
+* Cristina Rocha: **`r crist` €**
+* Nair Rocha: **`r xanda` €**
+ 
 # Resumo final da divisao
 
 Seguidamente apresenta-se o resumo das operações consideradas anteriormente. A coluna 'check' soma as parcelas individuais de cada item. Todos os valores são em €, os valores diferentes de 0 resultam de erros de arredondamento.
@@ -301,7 +326,7 @@ parcelas = c('inicial','santander_ordem','santander_credito',
              'punto','jipe','mudancas',
              'bigbox','funeral',
              'recheio','coura','despesas legais',
-             'impostos')
+             'impostos','avaliacoes')
 
 paula_sum = c('inicial' = 18039,
               'santander_ordem' = 3/8*santander_ordem,
@@ -314,7 +339,8 @@ paula_sum = c('inicial' = 18039,
               'recheio' = -3/8*mobilia,
               'coura' = 3/8*agua,
               'despesas legais' = 3/8*legais,
-              'impostos' = 3/8 * impostos)
+              'impostos' = 3/8 * impostos,
+              'avaliacoes' = 3/8 * avaliacoes_imovel)
 
 berto_sum = c('inicial' = -6013,
               'santander_ordem' = -1/8*santander_ordem,
@@ -327,7 +353,8 @@ berto_sum = c('inicial' = -6013,
               'recheio' = 1/8*mobilia,
               'coura' = -1/8*agua,
               'despesas legais' = -1/8*legais,
-              'impostos' = -1/8 * impostos)
+              'impostos' = -1/8 * impostos,
+              'avaliacoes' = -1/8 * avaliacoes_imovel)
 
 crist_sum = c('inicial' = -6013,
               'santander_ordem' = -1/8*santander_ordem,
@@ -340,7 +367,8 @@ crist_sum = c('inicial' = -6013,
               'recheio' = 1/8*mobilia,
               'coura' = -1/8*agua,
               'despesas legais' = -1/8*legais,
-              'impostos' = -1/8 * impostos)
+              'impostos' = -1/8 * impostos,
+              'avaliacoes' = -1/8 * avaliacoes_imovel)
 
 xanda_sum = c('inicial' = -6013,
               'santander_ordem' = -1/8*santander_ordem,
@@ -353,7 +381,8 @@ xanda_sum = c('inicial' = -6013,
               'recheio' = 1/8*mobilia,
               'coura' = -1/8*agua,
               'despesas legais' = -1/8*legais,
-              'impostos' = -1/8 * impostos)
+              'impostos' = -1/8 * impostos,
+              'avaliacoes' = -1/8 * avaliacoes_imovel)
 
 sumario = data.frame(cbind(paula_sum,
                            berto_sum,

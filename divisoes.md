@@ -230,6 +230,26 @@ após a sua contabilização o seguinte:
 - Cristina Rocha: **-6334.5 €**
 - Nair Rocha: **-6334.5 €**
 
+## Despesas de avaliação da casa da Maia
+
+Ana Paula Rocha apresenta despesas relativas à avaliação formal da casa
+da Maia através de peritos certificados pela Comissão de Mercado de
+Valores Mobiliários (**CMVM**), pelo valor de **307.5** €. Foi também
+solicitada ao avaliador um certificado energético, cuja fatura
+(**301.35** €) também se apresenta:
+
+Avaliação CMVM do imóvel: ![](comprovativos/fatura_avaliacao.png)
+
+Emissão do certificado energético:
+![](comprovativos/fatura_certificado_energetico.png)
+
+A inclusão destas despesas resulta no seguinte balanço:
+
+- Ana Paula Rocha: **15251.84 €**
+- Alberto Rocha: **-2430.62 €**
+- Cristina Rocha: **-6410.61 €**
+- Nair Rocha: **-6410.61 €**
+
 # Resumo final da divisao
 
 Seguidamente apresenta-se o resumo das operações consideradas
@@ -250,7 +270,8 @@ erros de arredondamento.
     ## coura                  164     -55      -55   -55 0.7075
     ## despesas legais        209     -70      -70   -70 0.5925
     ## impostos               185     -62      -62   -62 0.7800
-    ## Total                15024   -2355    -6335 -6335 0.5050
+    ## avaliacoes             228     -76      -76   -76 0.1063
+    ## Total                15252   -2431    -6411 -6411 0.6112
 
 Propõe-se assim que, estando todas as partes de acordo com as divisões
 propostas acima e o apuramento dos respectivos balanços, sejam
@@ -274,9 +295,9 @@ Acrescentando o balanço anterior, cada herdeiro receberá assim, como
 total da partilha da herança de Alberto Rocha e acrescendo à divisão da
 casa de Afe, o valor de :
 
-- Alberto Rocha: **29520.48 €**
-- Cristina Rocha: **25540.49 €**
-- Nair Rocha: **25540.49 €**
+- Alberto Rocha: **29444.38 €**
+- Cristina Rocha: **25464.39 €**
+- Nair Rocha: **25464.39 €**
 
 Com a entrega destes valores por parte de Ana Paula Rocha a cada um dos
 restantes herdeiros, ficaria assim concluido o processo de partilhas da
