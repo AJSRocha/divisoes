@@ -275,10 +275,10 @@ Imposto Único de Circulação do Fiat Punto:
 
 Imposto Único de Circulação do Mitsubishi Pajero Pinin:
 ![](comprovativos/iuc_pinin_2022.png)
-Imposto Municipal sobre Imóveis da casa da Maia (primeira linha):
-![](comprovativos/imi_maia_2022.jpg)
+Imposto Municipal sobre Imóveis da casa da Maia (linhas 3 e 4):
+![size=150](comprovativos/imi_actualizado.jpg)
 
-Estas despesas totalizam **`r impostos = 153.85 + 133 + 207.39;impostos`**, € sendo o balanço dos herdeiros após a sua contabilização o seguinte:
+Estas despesas totalizam **`r impostos = 153.85 + 133 + 414.80;impostos`**, € sendo o balanço dos herdeiros após a sua contabilização o seguinte:
 
 ```{r}
 berto = berto + impostos*-1/8
