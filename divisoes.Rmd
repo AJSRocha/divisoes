@@ -135,7 +135,7 @@ Foi pedida a avaliação do estado da viatura a Nelson Ribeiro, da MOTORVAP - Hy
 
 ![](comprovativos/pinin_1.png)
 
-Alberto Rocha propõe aos restantes herdeiros a aquisição do Mitsubishi Pajero Pinin pelo valor de **`r pinin = 3000; pinin` €**. O balanço após esta transação será de 
+Alberto Rocha propõe aos restantes herdeiros a aquisição do Mitsubishi Pajero Pinin pelo valor de **`r pinin = 4000; pinin` €**. O balanço após esta transação será de 
 
 ```{r}
 berto = berto + pinin*-7/8
@@ -278,7 +278,11 @@ Imposto Único de Circulação do Mitsubishi Pajero Pinin:
 Imposto Municipal sobre Imóveis da casa da Maia (linhas 3 e 4) e IUC de 2024 (última linha):
 ![size=150](comprovativos/imi_actualizado.jpg)
 
-Estas despesas totalizam **`r impostos = 153.85 + 133 + 153.81 + 414.80;impostos`**, € sendo o balanço dos herdeiros após a sua contabilização o seguinte:
+IMI de 2023 referente à casa da Maia:
+
+![](comprovativos/imi_2024.png)
+
+Estas despesas totalizam **`r impostos = 153.85 + 133 + 153.81 + 414.80 + 409.04 ;impostos`**, € sendo o balanço dos herdeiros após a sua contabilização o seguinte:
 
 ```{r}
 berto = berto + impostos*-1/8
